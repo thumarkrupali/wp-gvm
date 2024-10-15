@@ -1,0 +1,80 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.header-link a{
+	color: #fff !important;
+}
+.slider-sub-heading h2{
+	position:relative;
+}
+.slider-sub-heading h2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -118px;
+    background: #7C7065;
+    width: 100px;
+    height: 1px;
+}
+.service-sub-heading h2:after{
+	background: #373737;
+}
+h1,h2,h3,h4,h5,h6,body,p{
+	margin:0;
+	padding:0;
+}
+.result-heading strong{
+	font-weight:600;
+}
+.tab-part .e-n-tabs-heading{
+	display: grid !important;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+	min-width:33.5% !important;
+}    
+.team-box button svg{
+	width: 178px;
+	height: 204px;
+}
+.team-box button {
+	display: block !important;
+    padding: 0 !important; 
+    margin: 0;
+	background:none !important;
+	box-shadow:none !important;
+}
+@media (max-width:1024px){
+	.moblie-menu-header {
+		background-color:#0B4A76;
+	}	
+	.moblie-menu-header  div {
+		position:initial !important;
+	}
+	.moblie-menu-header {
+		position:relative;
+	}
+	.moblie-menu-header nav{
+		width:100% !important;
+		left:0 !important;
+		border: 2px #0B4A76 solid;
+	}
+	.mobile-menu-icon svg{
+		position:absolute;
+		right:20px;
+		top:50%;
+		transform:translatey(-50%);
+	}
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
