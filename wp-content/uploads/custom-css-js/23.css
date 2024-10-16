@@ -113,8 +113,43 @@ h1,h2,h3,h4,h5,h6,body,p{
 	.mobile-menu-2{
 		padding-right:70px !important;
 	}
+	
+	.team-box .e-con-boxed{
+		max-width: 470px;
+        margin: auto;
+	}
+	.header-text p{
+		font-size:14px;
+	}
+	.header-phone{
+		padding-left:10px;
+	}
+}
+@media (min-width:1200px) and (max-width:1600px){
+	.hero-bg{
+		padding: 80px 0;
+	}
 	.mobile-menu-2 a{
 		padding:0 15px !important;
 	}
-}</style>
+	.header-text p{
+		font-size:15px;
+	}
+	.header-location{
+		width:47%;
+	}
+	.header-phone{
+		width:16%;
+	}
+	.hero-bg .e-con-inner{
+		padding:5px 15px;
+	}
+}
+@media (min-width:1601px) and (max-width:1700px){
+	.hero-bg .e-con-inner{
+		padding: 160px 20px 180px 20px;
+	}
+}
+
+</style>
 <!-- end Simple Custom CSS and JS -->
