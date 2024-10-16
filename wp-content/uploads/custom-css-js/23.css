@@ -1,16 +1,5 @@
 <!-- start Simple Custom CSS and JS -->
 <style type="text/css">
-/* Add your CSS code here.
-
-For example:
-.example {
-    color: red;
-}
-
-For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
-
-End of comment */ 
-
 .header-link a{
 	color: #fff !important;
 }
@@ -53,7 +42,26 @@ h1,h2,h3,h4,h5,h6,body,p{
 	background:none !important;
 	box-shadow:none !important;
 }
-@media (max-width:1024px){
+@media (max-width:767px){
+	.hero-bg {
+		background-image:none !important;
+	}
+	.slider-sub-heading h2:after {
+		top: auto;
+		bottom: -10px;
+		left: 50%;
+		transform:translate(-50%,-50%);
+		width:100%;
+	}
+	.slider-sub-heading h2{
+		    display: inline-block;
+    		position: relative;
+	}
+	.team-box .e-n-tab-title{
+		margin: 0px !important;
+	}
+}
+@media (max-width:1199px){
 	.moblie-menu-header {
 		background-color:#0B4A76;
 	}	
@@ -74,7 +82,39 @@ h1,h2,h3,h4,h5,h6,body,p{
 		top:50%;
 		transform:translatey(-50%);
 	}
+	.team-bg{
+		background-color:#e1eaef;
+	}
+	.mobile-menu-icon .menu-is-active{
+		margin-top:0 !important;
+	}
 }
-
-</style>
+@media (min-width:768px) and (max-width:1199px){
+	.gallery-photo{
+		display: grid;
+    	grid-template-columns: 50% 50%;
+	}
+	.hero-bg{
+		background-position: center right -80px !important;
+	}
+	.mobile-menu-2 .e-con-inner{
+		justify-content:center !important;
+	}
+}
+@media (min-width:1025px) and (max-width:1199px){
+	.mobile-menu-2 a{
+		color:#fff !important;
+	}
+		.mobile-menu-2 a{
+		padding:0 10px !important; 
+	}
+}
+@media (min-width:1200px) and (max-width:1400px){
+	.mobile-menu-2{
+		padding-right:70px !important;
+	}
+	.mobile-menu-2 a{
+		padding:0 15px !important;
+	}
+}</style>
 <!-- end Simple Custom CSS and JS -->
